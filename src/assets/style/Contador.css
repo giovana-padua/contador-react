@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 5px 0px 10px #cfcfcf;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    text-align: center;
+}
+
+.redefinir {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.redefinir img {
+    width: 40px;
+    height: 40px;
+}
+
+.redefinir:hover {
+    background-color: #f7f7f7;
+}
+
+#contadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+img {
+    width: 20vw;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+button.somar {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: #6f9b4a;
+}
+
+button.somar:hover {
+    background-color: #5e863e;
+}
+
+button.subtrair {
+    min-width: 25px;
+    min-height: 25px;
+    font-size: 1rem;
+    background-color: #eb4a34;
+}
+
+button.subtrair:hover {
+    background-color: #d8412d;
+}
+
+.genero {
+    text-transform: capitalize;
+}
+
+.qtd {
+    width: 80px;
+    border: 2px solid #888b8b;
+    border-radius: 5px;
+    padding: 5px 30px;
+    text-align: center;
+}
